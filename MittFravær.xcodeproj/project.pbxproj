@@ -17,12 +17,9 @@
 		8155902E2208EE7B0066C326 /* ViewController_F.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155902D2208EE7A0066C326 /* ViewController_F.swift */; };
 		816A257021DF63340083D273 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A256F21DF63340083D273 /* OnboardingVC.swift */; };
 		816A257221DF6A340083D273 /* aboutapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816A257121DF6A340083D273 /* aboutapp.swift */; };
-		817FA62221F9C146007BFD3B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817FA62121F9C146007BFD3B /* NotificationService.swift */; };
-		817FA62621F9C146007BFD3B /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 817FA61F21F9C146007BFD3B /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8180722D21F29432002635C6 /* webViewQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8180722C21F29432002635C6 /* webViewQuiz.swift */; };
 		81C1605621F9C85100FEE333 /* Pods_MittFraværTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1605221F9C83200FEE333 /* Pods_MittFraværTests.framework */; };
 		81C1605721F9C85400FEE333 /* Pods_MittFraværUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1605421F9C83A00FEE333 /* Pods_MittFraværUITests.framework */; };
-		81C1605B21F9C90200FEE333 /* Pods_MittFravær.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1605021F9C82400FEE333 /* Pods_MittFravær.framework */; };
 		81CF1E1921D02ECE00467EB9 /* buttonAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF1E1821D02ECE00467EB9 /* buttonAnimationExtension.swift */; };
 		81E65DF121B0037A001C447C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E65DF021B0037A001C447C /* AppDelegate.swift */; };
 		81E65DF321B0037A001C447C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E65DF221B0037A001C447C /* ViewController.swift */; };
@@ -40,17 +37,9 @@
 		81F106D121FF9A320008AB8A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F106D021FF9A320008AB8A /* DashboardViewController.swift */; };
 		C4FCDC6A549B18A1C7CE1BD7 /* Pods_MittFrav_rTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9768A3C17871518AB8278A1D /* Pods_MittFrav_rTests.framework */; };
 		EF7E561F7030987DE72A7C63 /* Pods_MittFrav_rUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E9BA5E97999899C986FC0 /* Pods_MittFrav_rUITests.framework */; };
-		FB5C113CF4EB3D3BDBE8D55B /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5CEF7F100D697F060216AA /* Pods_OneSignalNotificationServiceExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		817FA62421F9C146007BFD3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81E65DE521B0037A001C447C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 817FA61E21F9C146007BFD3B;
-			remoteInfo = OneSignalNotificationServiceExtension;
-		};
 		81E65E0221B0037D001C447C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 81E65DE521B0037A001C447C /* Project object */;
@@ -67,27 +56,11 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		817FA62A21F9C146007BFD3B /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				817FA62621F9C146007BFD3B /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0141902F844322A3130DDE0D /* Pods-MittFravær.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MittFravær.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MittFravær/Pods-MittFravær.debug.xcconfig"; sourceTree = "<group>"; };
 		0FBC5C84701A2E5D7BA12E54 /* Pods_MittFrav_r.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MittFrav_r.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F5CEF7F100D697F060216AA /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD9EC93EFAC9B19D46E34D /* Pods-MittFraværTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MittFraværTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MittFraværTests/Pods-MittFraværTests.debug.xcconfig"; sourceTree = "<group>"; };
 		768A9CA3A93D2BF99A888288 /* Pods-MittFraværUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MittFraværUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MittFraværUITests/Pods-MittFraværUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7DD0AE4192996100F7E671ED /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		810B2C1321E2884600B9E95B /* ViewController_C.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_C.swift; sourceTree = "<group>"; };
 		810B2C1421E2884700B9E95B /* ViewController_B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_B.swift; sourceTree = "<group>"; };
 		811ADCEF21FB40D0009C46C8 /* Regler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regler.swift; sourceTree = "<group>"; };
@@ -98,9 +71,6 @@
 		8155902D2208EE7A0066C326 /* ViewController_F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_F.swift; sourceTree = "<group>"; };
 		816A256F21DF63340083D273 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		816A257121DF6A340083D273 /* aboutapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutapp.swift; sourceTree = "<group>"; };
-		817FA61F21F9C146007BFD3B /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		817FA62121F9C146007BFD3B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		817FA62321F9C146007BFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8180722C21F29432002635C6 /* webViewQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewQuiz.swift; sourceTree = "<group>"; };
 		81C1605021F9C82400FEE333 /* Pods_MittFravær.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_MittFravær.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C1605221F9C83200FEE333 /* Pods_MittFraværTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_MittFraværTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,24 +102,14 @@
 		908E9BA5E97999899C986FC0 /* Pods_MittFrav_rUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MittFrav_rUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9768A3C17871518AB8278A1D /* Pods_MittFrav_rTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MittFrav_rTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E090C6BA84A7CD64546385 /* Pods-MittFraværTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MittFraværTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MittFraværTests/Pods-MittFraværTests.release.xcconfig"; sourceTree = "<group>"; };
-		AFD8552D431699AF73156101 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		F22CAEB36AC30F9CCAD7DEAA /* Pods-MittFravær.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MittFravær.release.xcconfig"; path = "Pods/Target Support Files/Pods-MittFravær/Pods-MittFravær.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		817FA61C21F9C146007BFD3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB5C113CF4EB3D3BDBE8D55B /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81E65DEA21B0037A001C447C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C1605B21F9C90200FEE333 /* Pods_MittFravær.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +143,6 @@
 				A5E090C6BA84A7CD64546385 /* Pods-MittFraværTests.release.xcconfig */,
 				768A9CA3A93D2BF99A888288 /* Pods-MittFraværUITests.debug.xcconfig */,
 				8F0210208D1D06AD76DAA025 /* Pods-MittFraværUITests.release.xcconfig */,
-				AFD8552D431699AF73156101 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				7DD0AE4192996100F7E671ED /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,22 +180,12 @@
 			path = Konkurranser;
 			sourceTree = "<group>";
 		};
-		817FA62021F9C146007BFD3B /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				817FA62121F9C146007BFD3B /* NotificationService.swift */,
-				817FA62321F9C146007BFD3B /* Info.plist */,
-			);
-			path = OneSignalNotificationServiceExtension;
-			sourceTree = "<group>";
-		};
 		81E65DE421B0037A001C447C = {
 			isa = PBXGroup;
 			children = (
 				81E65DEF21B0037A001C447C /* MittFravær */,
 				81E65E0421B0037D001C447C /* MittFraværTests */,
 				81E65E0F21B0037D001C447C /* MittFraværUITests */,
-				817FA62021F9C146007BFD3B /* OneSignalNotificationServiceExtension */,
 				81E65DEE21B0037A001C447C /* Products */,
 				6D06D29E2B0241A8DDAC07B4 /* Pods */,
 				DFDCA21ACBA83F19600CE0B5 /* Frameworks */,
@@ -250,7 +198,6 @@
 				81E65DED21B0037A001C447C /* MittFravær.app */,
 				81E65E0121B0037D001C447C /* MittFraværTests.xctest */,
 				81E65E0C21B0037D001C447C /* MittFraværUITests.xctest */,
-				817FA61F21F9C146007BFD3B /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,7 +259,6 @@
 				81C1605421F9C83A00FEE333 /* Pods_MittFraværUITests.framework */,
 				81C1605221F9C83200FEE333 /* Pods_MittFraværTests.framework */,
 				81C1605021F9C82400FEE333 /* Pods_MittFravær.framework */,
-				2F5CEF7F100D697F060216AA /* Pods_OneSignalNotificationServiceExtension.framework */,
 				0FBC5C84701A2E5D7BA12E54 /* Pods_MittFrav_r.framework */,
 				9768A3C17871518AB8278A1D /* Pods_MittFrav_rTests.framework */,
 				908E9BA5E97999899C986FC0 /* Pods_MittFrav_rUITests.framework */,
@@ -323,24 +269,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		817FA61E21F9C146007BFD3B /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 817FA62921F9C146007BFD3B /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
-			buildPhases = (
-				2755134E0E9B1499AB42707E /* [CP] Check Pods Manifest.lock */,
-				817FA61B21F9C146007BFD3B /* Sources */,
-				817FA61C21F9C146007BFD3B /* Frameworks */,
-				817FA61D21F9C146007BFD3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OneSignalNotificationServiceExtension;
-			productName = OneSignalNotificationServiceExtension;
-			productReference = 817FA61F21F9C146007BFD3B /* OneSignalNotificationServiceExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		81E65DEC21B0037A001C447C /* MittFravær */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E65E1521B0037D001C447C /* Build configuration list for PBXNativeTarget "MittFravær" */;
@@ -349,12 +277,10 @@
 				81E65DE921B0037A001C447C /* Sources */,
 				81E65DEA21B0037A001C447C /* Frameworks */,
 				81E65DEB21B0037A001C447C /* Resources */,
-				817FA62A21F9C146007BFD3B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				817FA62521F9C146007BFD3B /* PBXTargetDependency */,
 			);
 			name = "MittFravær";
 			productName = "MittFravær";
@@ -409,9 +335,6 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "kvitér";
 				TargetAttributes = {
-					817FA61E21F9C146007BFD3B = {
-						CreatedOnToolsVersion = 10.1;
-					};
 					81E65DEC21B0037A001C447C = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -450,19 +373,11 @@
 				81E65DEC21B0037A001C447C /* MittFravær */,
 				81E65E0021B0037D001C447C /* MittFraværTests */,
 				81E65E0B21B0037D001C447C /* MittFraværUITests */,
-				817FA61E21F9C146007BFD3B /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		817FA61D21F9C146007BFD3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81E65DEB21B0037A001C447C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,28 +410,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2755134E0E9B1499AB42707E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		680C2E588BF24F20C3756DB4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,14 +479,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		817FA61B21F9C146007BFD3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				817FA62221F9C146007BFD3B /* NotificationService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81E65DE921B0037A001C447C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -636,11 +521,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		817FA62521F9C146007BFD3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 817FA61E21F9C146007BFD3B /* OneSignalNotificationServiceExtension */;
-			targetProxy = 817FA62421F9C146007BFD3B /* PBXContainerItemProxy */;
-		};
 		81E65E0321B0037D001C447C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 81E65DEC21B0037A001C447C /* MittFravær */;
@@ -673,48 +553,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		817FA62721F9C146007BFD3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFD8552D431699AF73156101 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z2K274H6B2;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kviterUB.MittFrav-r.OneSignalNotificationServiceExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		817FA62821F9C146007BFD3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD0AE4192996100F7E671ED /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z2K274H6B2;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kviterUB.MittFrav-r.OneSignalNotificationServiceExtension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		81E65E1321B0037D001C447C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -839,7 +677,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0141902F844322A3130DDE0D /* Pods-MittFravær.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "MittFravær/MittFravær.entitlements";
@@ -867,7 +704,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F22CAEB36AC30F9CCAD7DEAA /* Pods-MittFravær.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "MittFravær/MittFravær.entitlements";
@@ -979,15 +815,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		817FA62921F9C146007BFD3B /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				817FA62721F9C146007BFD3B /* Debug */,
-				817FA62821F9C146007BFD3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		81E65DE821B0037A001C447C /* Build configuration list for PBXProject "MittFravær" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
