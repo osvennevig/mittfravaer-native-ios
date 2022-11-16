@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Antall timer i uken"; ObjectID = "QeF-ax-vOr"; */
+"QeF-ax-vOr.text" = "Antall timer i uken";
+
+/* Class = "UILabel"; text = "Mine fraværstimer"; ObjectID = "QxC-CI-t96"; */
+"QxC-CI-t96.text" = "Mine fraværstimer";
+
+/* Class = "UIButton"; normalTitle = "Gå til nettsiden"; ObjectID = "foV-g0-GlA"; */
+"foV-g0-GlA.normalTitle" = "Gå til nettsiden";

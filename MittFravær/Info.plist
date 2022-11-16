@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>MittFravær</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,11 +17,33 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>14.2</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MaisonNeue-Bold.ttf</string>
+		<string>MaisonNeue-Book.ttf</string>
+		<string>MaisonNeue-Demi.ttf</string>
+		<string>MaisonNeue-Light.ttf</string>
+		<string>MaisonNeue-Medium.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,15 +55,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>
