@@ -24,14 +24,6 @@
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
-	<key>NSLocationUsageDescription</key>
-	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Posisjonen din vil bli bli brukt for å sende relevante varsler og tilbud.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>MaisonNeue-Bold.ttf</string>
@@ -41,9 +33,7 @@
 		<string>MaisonNeue-Medium.ttf</string>
 	</array>
 	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
+	<array/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

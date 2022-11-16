@@ -6,8 +6,6 @@
 //  Copyright © 2018 kvitér. All rights reserved.
 //
 
-import OneSignal
-
 import UIKit
 import UserNotifications
 import CoreLocation
@@ -16,44 +14,6 @@ import CoreLocation
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
-    func registerForPushNotifications() {
-        UNUserNotificationCenter.current() // 1
-            .requestAuthorization(options: [.alert, .sound, .badge]) { //2
-               [weak self] granted, error in
-                
-                print("permission grandet: \(granted)") //3
-                
-                guard granted else { return }
-                self?.getNotificationSettings()
-                
-        }
-    }
-    
-    func application(
-        _ application: UIApplication,
-        didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
-        ) {
-        let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
-        let token = tokenParts.joined()
-        print("Device Token: \(token)")
-    }
-    
-    func application(
-        _ application: UIApplication,
-        didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print("Failed to register: \(error)")
-    }
-    
-    
-    func getNotificationSettings() {
-        UNUserNotificationCenter.current().getNotificationSettings { settings in
-            print("Notification settings: \(settings)")
-            guard settings.authorizationStatus == .authorized else { return }
-            DispatchQueue.main.async {
-                UIApplication.shared.registerForRemoteNotifications()
-            }
-        }
-    }
     
     var window: UIWindow?
 
@@ -89,29 +49,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     self.window?.rootViewController = viewController
     self.window?.makeKeyAndVisible()
     }
-    
-    registerForPushNotifications()
-    
-    
-    let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
-    
-    // Replace 'YOUR_APP_ID' with your OneSignal App ID.
-    OneSignal.initWithLaunchOptions(launchOptions,
-                                    appId: "b8487250-6b13-4e9e-9f3c-059e4e168f14",
-                                    handleNotificationAction: nil,
-                                    settings: onesignalInitSettings)
-    
-    OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
-    
-    // Recommend moving the below line to prompt for push after informing the user about
-    //   how your app will use them.
-    OneSignal.promptForPushNotifications(userResponse: { accepted in
-        print("User accepted notifications: \(accepted)")
-    })
-    
-    OneSignal.promptLocation()
-    
-    
+        
     return true
     
     }
