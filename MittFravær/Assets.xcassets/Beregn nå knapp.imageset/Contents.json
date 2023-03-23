@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Beregn nå knapp.png",
+      "filename" : "Beregn nå knapp.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Beregn nå knapp@2x.png",
+      "filename" : "Beregn nå knapp@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Beregn nå knapp@3x.png",
+      "filename" : "Beregn nå knapp@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

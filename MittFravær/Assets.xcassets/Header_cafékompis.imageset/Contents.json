@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Header_cafékompis.png",
+      "filename" : "Header_cafékompis.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Header_cafékompis@2x.png",
+      "filename" : "Header_cafékompis@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Header_cafékompis@3x.png",
+      "filename" : "Header_cafékompis@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
